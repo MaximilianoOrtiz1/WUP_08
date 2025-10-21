@@ -39,3 +39,22 @@ summary.lm(simp)
 
 The predicted overall weight of a bear based on chest has an adjusted R-Squared value of 0.9262, and a Residual standard error value of 33.08. 
 
+```{r}
+simp <- lm(WEIGHT~LENGTH,data=bears)
+plot(WEIGHT~LENGTH,data=bears)
+abline(simp)
+summary.lm(simp)
+```
+
+
+The predicted overall weight of a bear based on length has an adjusted R-Squared value of 0.7423, and a Residual standard error value of 61.83.
+
+```{r}
+simp <- lm(WEIGHT~HEADWTH,data=bears)
+plot(WEIGHT~HEADWTH,data=bears)
+abline(simp)
+summary.lm(simp)
+```
+
+The predicted overall weight of a bear based on head width has an adjusted R-Squared value of 6.6064, and a Residual standard error value of 76.41.
+
