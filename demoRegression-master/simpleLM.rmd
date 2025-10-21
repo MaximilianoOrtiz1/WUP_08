@@ -76,3 +76,16 @@ summary.lm(simp)
 ```
 
 The predicted overall weight of a bear based on age has an adjusted R-Squared value of 0.5526, and a Residual standard error value of 81.47
+
+##Conclusion and Ranking
+
+According to the data I collected for the adjusted R squared and Residual standard error values when I compared weight to all other numerical values, the ranking is as such. 
+
+1. Weight~Chest: RSE: 33.08 and ARS:0.9262
+2. Weight~Neck: RSE: 43.91 and ARS: 0.87
+3. Weight~Length RSE: 61.83 and ARS: 0.7423
+4. Weight~Head length RSE: 67.81 and ARS: 0.69
+5. Weight~Head width RSE: 76.41 and ARS: 0.6064
+6. Weight~Age RSE: 81.47 and ARS: 0.5526
+
+
